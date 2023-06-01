@@ -2,7 +2,7 @@ import axios from "axios";
 const { Configuration, OpenAIApi } = require("openai");
 
 
-const OPENAI_API_KEY = "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";
+const OPENAI_API_KEY = "API_KEY";
 
 
 const configuration = new Configuration({

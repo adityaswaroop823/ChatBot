@@ -1,0 +1,121 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background:#030C1A;
+}
+.history{
+  display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 10%;
+    /* width: 30%; */
+}
+.headerDiv{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #1876d0;
+  height: 10vh;
+  width: 100%;
+  /* background:#030C1A; */
+}
+.headingText{
+  color:#f2f2f2;
+  width: 97%;
+  font-family: 'Arial';
+  font-style: normal;
+  padding: 12px;
+  font-size: 24px;
+  text-align: center;
+
+}
+
+.chat {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  height: 80%;
+  width: 95%;
+  overflow-y: scroll;
+  padding: 10px;
+}
+.MuiPaper-root MuiPaper-elevation MuiPaper-elevation4 MuiAppBar-root MuiAppBar-colorPrimary MuiAppBar-positionFixed mui-fixed css-ciy9n4-MuiPaper-root-MuiAppBar-root{
+  background-color: #040c1a !important;
+}
+.user-message {
+  background-color: #f2f2f2;
+  color: black;
+  align-self: flex-end;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 50%;
+  word-wrap: break-word;
+}
+
+.bot-message {
+  background-color: #121F33;
+  color: white;
+  align-self: flex-start;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 400px;
+  word-wrap: break-word;
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 20%;
+  padding: 10px;
+  column-gap: 2%;
+}
+
+input[type="text"] {
+  width: 70%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid white;
+  outline: none;
+  color: white;
+  background-color: #121F33;
+}
+.loading{
+  color:white;
+}
+
+button {
+  width: 20%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background-color: #1D74F5;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+aside.ps-sidebar-root.css-1wvake5{
+min-width: 0px !important;
+width: 30% !important;
+}
+@media (max-width: 1123px) {
+  .sidebar.collapsed {
+    display: none;
+  }
+}
